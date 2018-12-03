@@ -1,0 +1,178 @@
+html{
+    background: url("BG.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -10000;
+  }
+
+  .img1{
+    position: relative;
+    margin: 150px;
+    animation: spin 2s linear infinite;
+    z-index: 0;
+  }
+
+
+ @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+ }
+
+marquee{
+  position: fixed;
+  color: blue;
+  top:0%;
+  right: 0%;
+  width: 100%;
+  border-style:  solid;
+  border-width: medium;
+  box-shadow: white;
+  border-color: cyan;
+  background-image: url("bgt.gif");
+  font-size: 9o;
+}
+.hand{
+  position: absolute;
+  bottom:0px;
+  right:40%;
+  left:40%;
+  margin-left:-250px;
+  z-index: -1;
+}
+
+
+.can{
+  position: absolute;
+  top:10%;
+  right: -100px;
+  z-index: -4;
+}
+
+.can1{
+  position: absolute;
+  top: - 500px;
+  right:400px;
+  z-index: -3;
+}
+
+.face{
+  position: absolute;
+  width:120x;
+  height:240px;
+  bottom:240px;
+  right:80%;
+  left:80%;
+  margin-left:-250px;
+  z-index: -4;
+}
+
+.ave{
+  position: absolute;
+  width:120x;
+  height:440px;
+  bottom:240px;
+  right:30%;
+  margin-left:-250px;
+  z-index: -4;
+}
+.la{
+  position: absolute;
+  width:120x;
+  height:440px;
+  bottom:240px;
+  right:70%;
+  margin-left:-250px;
+  z-index: -40;
+}
+
+.paint{
+  position: absolute;
+  width:300px;
+  height:300px;
+  right:-100px;
+  bottom:0% ;
+  z-index: -60;
+}
+
+.stat{
+  position: absolute;
+  width:300px;
+  height:300px;
+  bottom:30px;
+  right:100px;
+  z-index: -7;
+}
+
+.hands{
+  position: absolute;
+  width:300px;
+  height:300px;
+  bottom:0px;
+  right:70%;
+  top:0;
+  margin-left:-250px;
+  z-index: -7;
+}
+
+.glitch{
+  position: absolute;
+  width:200px;
+  height:200px;
+  bottom:0px;
+  right:0%;
+  z-index: 50;
+}
+
+.windows{
+  position: absolute;
+  width:200px;
+  height:200px;
+  bottom:30px;
+  left:10%;
+  z-index: 50;
+}
+
+.flop{
+  position: absolute;
+  width:200px;
+  height:200px;
+  top:40px;
+  left:30%;
+  z-index: 50;
+}
+
+.chat{
+  position: absolute;
+  width:300px;
+  height:300px;
+  top:40px;
+  left:60%;
+  z-index: -90;
+}
+.dial{
+  position: absolute;
+  top:300px;
+  left:10%;
+  z-index: -50;
+}
+
+.skelton{
+  position: absolute;
+  width:600px;
+  height:600px;
+  bottom:0;
+  right: 1000px;
+  z-index: -8;
+}
+.skelton1{
+  position: absolute;
+  width:600px;
+  height:600px;
+  bottom:0px;
+  right:50%;
+  left:50%;
+  margin-left:-250px;
+    z-index: -9;
+}
