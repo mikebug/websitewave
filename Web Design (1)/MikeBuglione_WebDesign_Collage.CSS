@@ -5,6 +5,7 @@ html{
     -o-background-size: cover;
     background-size: cover;
     z-index: -10000;
+    overflow-x: hidden;
   }
 
   .img1{
